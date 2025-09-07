@@ -9,7 +9,7 @@ function ResumeDetails({ resumeData }) {
       className="resume-details"
       style={{ textAlign: "left", margin: "20px" }}
     >
-      <h3>Contact Information</h3>
+    <h3>Contact Information</h3>
       <p>
         <strong>Name:</strong> {resumeData.name}
       </p>
