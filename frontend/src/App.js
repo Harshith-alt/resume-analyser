@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import ResumeUploader from "./components/ResumeUploader";
 import PastResumesTable from "./components/PastResumesTable";
-import "./App.css"; // You can style this later
+import "./App.css"; 
 
 function App() {
   const [activeTab, setActiveTab] = useState("analyze");
-  const [latestAnalysis, setLatestAnalysis] = useState(null); // To store the result of the latest upload
+  const [latestAnalysis, setLatestAnalysis] = useState(null);
 
   return (
     <div className="App" style={{ textAlign: "center" }}>
