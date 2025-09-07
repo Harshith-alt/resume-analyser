@@ -30,7 +30,6 @@ function PastResumesTable() {
     setSelectedResume(resume);
     setIsModalOpen(true);
   };
-
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedResume(null);
