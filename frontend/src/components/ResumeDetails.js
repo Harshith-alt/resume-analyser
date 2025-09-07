@@ -1,5 +1,4 @@
 import React from "react";
-
 function ResumeDetails({ resumeData }) {
   if (!resumeData) {
     return <p>No resume data to display.</p>;
