@@ -47,10 +47,15 @@ npm install
 npm start
 ```
 
-Live Resume Analysis tab:
-Upload a PDF resume.
-View structured data and AI feedback (rating, improvements, suggested skills).
-History Viewer tab:
-View previously analyzed resumes.
+Live Resume Analysis tab:  
+
+Upload a PDF resume.  
+
+View structured data and AI feedback (rating, improvements, suggested skills).  
+
+History Viewer tab:  
+
+View previously analyzed resumes.  
+
 Click Details to see full resume analysis.
 
