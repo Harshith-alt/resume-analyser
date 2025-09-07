@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Modal from "./Modal"; // We'll create a simple Modal component
+import Modal from "./Modal";
 import ResumeDetails from "./ResumeDetails";
 
 function PastResumesTable() {
