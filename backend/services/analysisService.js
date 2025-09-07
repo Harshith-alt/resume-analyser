@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 require("dotenv").config();
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro" }); // Or 'gemini-1.5-flash' for faster, cheaper inference
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro" }); 
 
 async function extractTextFromPdf(pdfBuffer) {
   try {
