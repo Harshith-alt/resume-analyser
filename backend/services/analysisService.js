@@ -49,7 +49,7 @@ async function analyzeResumeWithGemini(resumeText) {
     const response = await result.response;
     const text = response.text();
 
-    // Gemini sometimes includes backticks and "json" label, clean it up
+    
     const cleanJsonString = text.replace(/```json\n|```/g, "").trim();
 
     return JSON.parse(cleanJsonString);
